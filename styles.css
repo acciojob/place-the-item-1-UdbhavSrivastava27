@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-box{
+    display: flex;
+/*     gap:10px; */
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.container{
+    
+    height: 20vh;
+    width: 20vw;
+/*     background-color: #3507db; */
+    border: 2px solid black;
+}
+#one{
+    background-color: aqua;
+}
+#two{
+    background-color: blue;
+     
+    
+}
+#three{
+    background-color: gray;
+}
